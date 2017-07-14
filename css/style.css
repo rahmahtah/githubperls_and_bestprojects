@@ -1,0 +1,39 @@
+html,
+body {background-color:black; margin:2px}
+.btn1 {
+width: 360px;
+height: 65px;
+visibility: hidden;
+background-color: #000000;
+color: #FFFAFA;
+font-family: Eco Sans Mono;
+font-size: 30px;
+margin-left: -4px;
+}
+
+.btn2 {
+width: 360px;
+height: 65px;
+visibility: hidden;
+background-color: #FFFAFA;
+color: #000000;
+font-family: Eco Sans Mono;
+font-size: 30px;
+margin-left: -4px;
+}
+
+.canv {
+visibility: visible;
+-webkit-animation-name: example;
+-webkit-animation-duration: 5s;
+margin-left: -4px;
+margin-top: -8px;
+margin-bottom: -5px;
+}
+
+
+
+@-webkit-keyframes example {
+    0%   {opacity: 0;}
+    100%  {opacity: 1;}
+}
